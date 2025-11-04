@@ -12,8 +12,9 @@
 // Set password to "" for open networks.
 char ssid[] = "Nitish_Mehta";
 char pass[] = "niti$h392";
-int Motor= D1;
+
 int led = D0;
+int Motor= D1;
 
 int pinValue1;
 int pinValue2;
