@@ -8,8 +8,6 @@
 #include <ESP8266WiFi.h>  
 #include <BlynkSimpleEsp8266.h>  
 
-// Your WiFi credentials.  
-// Set password to "" for open networks.  
 char ssid[] = "Nitish_Mehta";  
 char pass[] = "niti$h392";  
 
