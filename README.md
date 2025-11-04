@@ -28,7 +28,7 @@ BLYNK_WRITE(V1)  //FAN switch
   Serial.println(pinValue1);  
 }  
 BLYNK_WRITE(V2)  //LED switch  
-{
+{  
   int pinValue2 = param.asInt();  
   digitalWrite(Motor,pinValue2);  
   Blynk.virtualWrite(V2,pinValue2);  
@@ -36,7 +36,7 @@ BLYNK_WRITE(V2)  //LED switch
 }  
 
 void setup()  
-{
+{  
   pinMode(Motor, OUTPUT);  
   pinMode(led, OUTPUT);  
   Serial.begin(115200);  
@@ -44,7 +44,7 @@ void setup()
 }
 
 void loop()  
-{
+{  
   Blynk.run();  
   delay(1000); // Update every 1 seconds  
 }
